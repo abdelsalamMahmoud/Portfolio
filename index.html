@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!----Home section start----->
+
+    <div class="home">
+        <nav>
+            <h2 class="logo">Abdelsa<span>lam</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h4>Hello , My Name is</h4>
+            <h1>Abdelsalam <span>Mahmoud</span></h1>
+            <h3>a passionate web developer.</h3>
+        </div>
+    </div>
+
+    <!----About section start----->
+
+    <section class="about" id="about">
+        <div class="main">
+            <img src="images/photo_2024-07-05_05-33-12.jpg" alt="profile-picture">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Backend <span>Developer</span></h5>
+                <p>I'm Abdelsalam Mahmoud, a backend developer with a strong focus on Laravel and modern web development. I enjoy designing clean, efficient, and maintainable systems that solve real-world problems. My work spans across building robust backend logic, managing databases, implementing authentication, and integrating third-party services. I'm also continuously expanding my knowledge in software engineering, DevOps, and system design to become a well-rounded backend engineer.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!----Skills section start----->
+    <section class="skills" id="skills">
+        <h2 class="skills-title">Explore My <span>Skills</span></h2>
+        <div class="skills-container">
+          <div class="skills-box">
+            <h3 class="skills-subtitle">Frontend Development</h3>
+            <ul class="skills-list">
+              <li><i class="fa-regular fa-circle-dot"></i>    HTML - Experienced</li>
+              <li><i class="fa-regular fa-circle-dot"></i> CSS - Experienced</li>
+              <li><i class="fa-regular fa-circle-dot"></i> JavaScript - Basic</li>
+              <li><i class="fa-regular fa-circle-dot"></i> bootstrap - Intermediate</li>
+            </ul>
+          </div>
+          <div class="skills-box">
+            <h3 class="skills-subtitle">Backend Development</h3>
+            <ul class="skills-list">
+              <li><i class="fa-regular fa-circle-dot"></i> Mysql - Experienced</li>
+              <li> <i class="fa-regular fa-circle-dot"></i> PHP - Experienced</li>
+              <li><i class="fa-regular fa-circle-dot"></i>  Laravel - Experienced</li>
+              <li><i class="fa-regular fa-circle-dot"></i> Livewire - Intermediate</li>
+              <li> <i class="fa-regular fa-circle-dot"></i> Git - Intermediate</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    <!----Projects section start----->
+    <section class="projects-section" id="projects">
+        <h2 class="projects-title">My <span>Work</span></h2>
+        <div class="projects-container">
+          <div class="projects-card">
+            <img src="images/portfolio.webp" alt="Portfolio Website ">
+            <div class="projects-overlay">
+              <h3>Portfolio Website </h3>
+              <p> A personal website to showcase my work and skills, built with HTML, CSS, and 
+                JavaScript. </p>
+              <a href="#" class="projects-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="projects-card">
+            <img src="images/todo.jpg" alt="Todo App">
+            <div class="projects-overlay">
+              <h3>Todo App </h3>
+              <p>A simple task management app built with vanilla JavaScript and LocalStorage.</p>
+              <a href="#" class="projects-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="projects-card">
+            <img src="images/weather.png" alt="Online Shopping App">
+            <div class="projects-overlay">
+              <h3>Weather App</h3>
+              <p>A web app that shows current weather using a public API.</p>
+              <a href="#" class="projects-link"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!----Contact section start----->
+    <section class="contact-section" id="contact">
+        <h2 class="contact-title">Contact <strong>Me</strong></h2>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" />
+          <input type="email" name="email" placeholder="Your Email" />
+          <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <!----footer start----->
+      <footer class="footer">
+        <div class="footer-content">
+          <h3>Abdelsalam Mahmoud</h3>
+          <p>Thank you for visiting my portfolio. Let's connect!</p>
+          <div class="socials">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/abdelsalamMahmoud"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abdelsalam-mahmoud-a6ba6924b/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Abdelsalam. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
